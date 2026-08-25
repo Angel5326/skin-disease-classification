@@ -1,7 +1,7 @@
 @"
 # Large files — keep out of git
-data/raw/
-data/processed/
+data/raw/*
+data/processed/*
 *.h5
 *.keras
 *.pt
@@ -14,6 +14,7 @@ __pycache__/
 venv/
 .env
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+
 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
