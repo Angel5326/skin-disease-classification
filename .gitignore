@@ -1,0 +1,16 @@
+@"
+# Large files — keep out of git
+data/raw/
+data/processed/
+*.h5
+*.keras
+*.pt
+*.pth
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+"@ | Out-File -FilePath .gitignore -Encoding utf8
