@@ -14,3 +14,6 @@ __pycache__/
 venv/
 .env
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
