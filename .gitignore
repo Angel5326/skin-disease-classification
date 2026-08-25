@@ -1,7 +1,8 @@
-@"
 # Large files — keep out of git
 data/raw/*
+data/raw/**/*
 data/processed/*
+data/processed/**/*
 *.h5
 *.keras
 *.pt
@@ -12,9 +13,25 @@ data/processed/*
 __pycache__/
 *.pyc
 venv/
+.venv/
 .env
-"@ | Out-File -FilePath .gitignore -Encoding utf8
 
+# Kaggle credentials
+kaggle.json
+access_token
+
+# Dataset folder (if used at project root)
+ham10000/
+
+# Generated outputs (plots, CSVs, weights)
+outputs/
+
+# Dataset folders anywhere in src
+src/**/Skin Disease Classification dataset/
+src/**/HAM10000_images_part_1/
+src/**/HAM10000_images_part_2/
+*.csv
+!outputs/*.csv
 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
