@@ -1,37 +1,17 @@
-# Large files — keep out of git
-data/raw/*
-data/raw/**/*
-data/processed/*
-data/processed/**/*
-*.h5
-*.keras
-*.pt
-*.pth
-.ipynb_checkpoints/
+# Data & large files
+data/
+outputs/
+#*.pth
+*.zip
+#*.png
+*.csv
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 venv/
 .venv/
-.env
 
-# Kaggle credentials
-kaggle.json
-access_token
-
-# Dataset folder (if used at project root)
-ham10000/
-
-# Generated outputs (plots, CSVs, weights)
-outputs/
-
-# Dataset folders anywhere in src
-src/**/Skin Disease Classification dataset/
-src/**/HAM10000_images_part_1/
-src/**/HAM10000_images_part_2/
-*.csv
-!outputs/*.csv
-
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# IDE
+.vscode/
+.idea/
