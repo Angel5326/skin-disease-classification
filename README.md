@@ -9,7 +9,7 @@ approach, with explainable predictions via Grad-CAM.
 ## Team
 | Name | Role |
 |---|---|
-| Member 1 | Data & Preprocessing Lead |
+| Akash A | Data & Preprocessing Lead |
 | Member 2 | Core CNN Model Engineer |
 | Member 3 | Transfer Learning & Ensemble Engineer |
 | Member 4 | Explainability & Feature Engineering |
