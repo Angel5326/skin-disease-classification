@@ -10,11 +10,10 @@ approach, with explainable predictions via Grad-CAM.
 | Name | Role |
 |---|---|
 | Akash A | Data & Preprocessing Lead |
-| Member 2 | Core CNN Model Engineer |
-| Member 3 | Transfer Learning & Ensemble Engineer |
-| Member 4 | Explainability & Feature Engineering |
-| Member 5 | Application/Deployment Engineer |
-| Member 6 | Evaluation, Docs & Presentation Lead |
+| Abi Angelin A | Core CNN Model Engineer and Transfer Learning & Ensemble Engineer |
+| Aakash A | Explainability & Feature Engineering |
+| Akshaya M | Application/Deployment Engineer |
+| Abarna Mary | Evaluation, Docs & Presentation Lead |
 
 ## Dataset
 HAM10000 (Kaggle): https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
